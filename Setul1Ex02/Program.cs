@@ -2,7 +2,7 @@
 
 class Program //Rezolvati ecuatia de gradul 2 cu o necunoscuta: ax^2 + bx + c = 0, unde a, b si c sunt date de intrare. Tratati toate cazurile posibile. 
 {
-    static void Main(string[] args)
+    static void Main()
     {
         int a, b, c;
         Console.WriteLine("Introduceti a: ");

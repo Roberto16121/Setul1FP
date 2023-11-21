@@ -2,7 +2,7 @@
 
 class Program //Rezolvati ecuatia de gradul 1 cu o necunoscuta: ax + b = 0, unde a si b sunt date de intrare. 
 {
-    static void Main(string[] args)
+    static void Main()
     {
         int a, b;
         Console.WriteLine("Introduceti a: ");

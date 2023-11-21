@@ -4,7 +4,7 @@ using System;
 
 class Program //Determinati daca n se divide cu k, unde n si k sunt date de intrare. 
 {
-    static void Main(string[] args)
+    static void Main()
     {
         int n, k;
         Console.WriteLine("Introduceti n=");

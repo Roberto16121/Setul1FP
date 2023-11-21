@@ -1,6 +1,4 @@
-﻿using System;
-
-class Program
+﻿class Program
 {
     //Se dau 5 numere. Sa se afiseze in ordine crescatoare. (nu folositi tablouri)  
     static void Main()
@@ -17,13 +15,39 @@ class Program
         Console.Write("e = ");
         e = int.Parse(Console.ReadLine());
 
-        int swap;
-        if (a > b) { swap = a; a = b; b = swap; }
-        if (c > d) { swap = c; c = d; d = swap; }
-        if (a > c) { swap = a; a = c; c = swap; }
-        if (b > d) { swap = b; b = d; d = swap; }
-        if (b > c) { swap = b; b = c; c = swap; }
-
+        //sort 5 numbers without using array
+        
+        for(int i=0; i<5; i++)
+        {
+            if (a > b)
+            {
+                int temp = a;
+                a = b;
+                b = temp;
+            }
+            if (b > c)
+            {
+                int temp = b;
+                b = c;
+                c = temp;
+            }
+            if (c > d)
+            {
+                int temp = c;
+                c = d;
+                d = temp;
+            }
+            if (d > e)
+            {
+                int temp = d;
+                d = e;
+                e = temp;
+            }
+        }
         Console.WriteLine("{0} {1} {2} {3} {4}", a,b,c,d,e);
+
     }
+
+   
 }
+
