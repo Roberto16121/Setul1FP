@@ -38,7 +38,7 @@ class Program
         for(i=0;i<v.Length; i++)
         {
             if (v[i] != 0)
-                Console.WriteLine($"{i}^{v[i]}");
+                Console.Write($"{i}^{v[i]} ");
         }
 
     }
